@@ -25,10 +25,8 @@ const openEmail = () => {
   const openMaps = () => {
     // Option 1: Using Google Maps with address
     const address = 'Jl. Lengkong Wuaya Lingk. 3, Kairagi Weru, Manado 95129';
-    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+    const mapsUrl = `https://maps.app.goo.gl/qqwx39iAx8vDwUfBA?g_st=aw`;
     
-    // Option 2: If you have exact coordinates, you can use:
-    // const mapsUrl = `https://www.google.com/maps?q=-1.234567,124.567890`;
     
     window.open(mapsUrl, '_blank');
   };
