@@ -1,4 +1,5 @@
 import React from 'react';
+import backgroundHome from '../assets/photo/backgroundhome.jpg';
 
 export default function Hero() {
   const scrollToSection = (id) => {
@@ -12,8 +13,19 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900">
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+      {/* Background image with blur effect */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${backgroundHome})`,
+          filter: 'blur(8px)',
+          transform: 'scale(1.1)'
+        }}
+      ></div>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+      
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">PT. Sumber Cahaya Timur</h1>
         <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
