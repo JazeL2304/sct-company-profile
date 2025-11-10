@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../assets/photo/PT.SCT-LOGO.png';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,10 +30,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('home')}>
-            <Building2 className={`h-8 w-8 ${scrolled ? 'text-blue-600' : 'text-white'}`} />
-            <span className={`ml-3 text-xl font-bold ${scrolled ? 'text-gray-800' : 'text-white'}`}>
-              PT. SCT
-            </span>
+            <img 
+              src={logo} 
+              alt="PT. SCT Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           <div className="hidden md:flex space-x-8">
