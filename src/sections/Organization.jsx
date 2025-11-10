@@ -21,7 +21,7 @@ export default function Organization() {
               </div>
               <div className="bg-white rounded-lg p-4 text-center shadow">
                 <Users className="h-10 w-10 text-blue-600 mx-auto mb-2" />
-                <h5 className="font-bold text-gray-800">Jason Lim. S.T, Bsc</h5>
+                <h5 className="font-bold text-gray-800">Jason Lim. ST, B. Eng (Hons)</h5>
                 <p className="text-sm text-gray-600">Komisaris</p>
               </div>
             </div>
