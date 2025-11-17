@@ -50,8 +50,8 @@ const openEmail = () => {
             </div>
             <h3 className="font-bold mb-2 text-xl group-hover:text-blue-400 transition-colors">Alamat</h3>
             <p className="text-gray-300 group-hover:text-white transition-colors">
-              Jl. Lengkong Wuaya Lingk. 3<br />
-              Kairagi Weru, Manado 95129
+              KEC Cluster Amethyst Blok A9 No. 23, Lingk.3<br />
+              Kel. Buha, Kec. Mapanget, Manado 95129
             </p>
             <p className="text-sm text-blue-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
               Klik untuk buka Maps
@@ -67,7 +67,7 @@ const openEmail = () => {
               <Phone className="h-8 w-8" />
             </div>
             <h3 className="font-bold mb-2 text-xl group-hover:text-green-400 transition-colors">Telepon</h3>
-            <p className="text-gray-300 group-hover:text-white transition-colors">082299958955</p>
+            <p className="text-gray-300 group-hover:text-white transition-colors">+62 822-9995-8955</p>
             <p className="text-sm text-green-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
               Klik untuk chat WhatsApp
             </p>
