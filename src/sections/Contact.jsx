@@ -21,13 +21,9 @@ const openEmail = () => {
   
   window.open(gmailUrl, '_blank'); // buka di tab baru
 };
-  // Function to open Google Maps (you'll need to replace this with actual location)
+  // Function to open Google Maps
   const openMaps = () => {
-    // Option 1: Using Google Maps with address
-    const address = 'Jl. Lengkong Wuaya Lingk. 3, Kairagi Weru, Manado 95129';
-    const mapsUrl = `https://maps.app.goo.gl/qqwx39iAx8vDwUfBA?g_st=aw`;
-    
-    
+    const mapsUrl = `https://maps.app.goo.gl/1hYzfWX1VSeqAqAj8?g_st=ic`;
     window.open(mapsUrl, '_blank');
   };
 
@@ -50,8 +46,8 @@ const openEmail = () => {
             </div>
             <h3 className="font-bold mb-2 text-xl group-hover:text-blue-400 transition-colors">Alamat</h3>
             <p className="text-gray-300 group-hover:text-white transition-colors">
-              KEC Cluster Amethyst Blok A9 No. 23, Lingk.3<br />
-              Kel. Buha, Kec. Mapanget, Manado 95129
+              Perum Lestari Land Blok E No. 3<br />
+              Kel. Talete Dua, Kec. Tomohon Tengah, Kota Tomohon 95442
             </p>
             <p className="text-sm text-blue-400 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
               Klik untuk buka Maps
